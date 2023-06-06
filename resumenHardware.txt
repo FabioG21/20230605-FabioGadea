@@ -1,0 +1,5 @@
+Memorias principales:
+1-Ram
+2-Chaché
+3-Rom
+

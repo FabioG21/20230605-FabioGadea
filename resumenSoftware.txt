@@ -1,0 +1,4 @@
+Ejemplos de software:
+1-Word.
+2-Terminal.
+3-Vs code.

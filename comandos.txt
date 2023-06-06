@@ -1,0 +1,21 @@
+mkdir 20230605-FabioGadea
+cd 20230605-FabioGadea/
+git init
+git remote add origin https://github.com/FabioG21/20230605-FabioGadea.git
+touch comandos.txt main.js index.html
+git add .
+git commit -m "commit 01 de FabioGadea"
+git push origin main
+git checkout -b "feature"
+mkdir Hardware Software SeguridadInformatica
+touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+git add .
+git status
+git commit -m "commit 02 de FabioGadea"
+git push origin feature
+git checkout main
+mv main.js resumenHardware.txt
+mv index.html resumenSoftware.txt
+nano resumenHardware.txt
+nano resumenSoftware.txt
+history 50
